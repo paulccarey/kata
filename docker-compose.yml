@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  kata:
+    image: createkio/kata:latest
+    command: sleep infinity
+    volumes:
+      - .:/kata
